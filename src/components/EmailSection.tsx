@@ -1,6 +1,5 @@
 import useOpenState from '@/store/store'
 import { X } from 'lucide-react';
-import React from 'react'
 
 export const EmailSection = () => {  
      const Hidden = useOpenState(state=> state.hidden);
